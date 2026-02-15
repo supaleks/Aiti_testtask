@@ -1,6 +1,7 @@
 import { AntdProvider, store } from '@/app/providers'
 import '@/shared/styles/main.scss'
 import { ErrorBoundary, Loader } from '@/shared/ui'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import 'antd/dist/reset.css'
 import { lazy, Suspense } from 'react'
 import { Provider } from 'react-redux'
@@ -48,6 +49,7 @@ function App() {
 							/>
 						</Routes>
 					</Suspense>
+					<SpeedInsights />
 				</AntdProvider>
 			</Provider>
 		</ErrorBoundary>
