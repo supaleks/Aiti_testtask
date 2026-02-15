@@ -1,0 +1,1 @@
+export { useGetProductsQuery } from './productsApi'

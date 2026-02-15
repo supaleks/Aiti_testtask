@@ -1,0 +1,16 @@
+:root {
+	--font-inter: 'Inter', sans-serif;
+	--font-os: 'Open Sans', sans-serif;
+	--font-cairo: 'Cairo', sans-serif;
+	--font-mono: 'Roboto Mono', monospace;
+}
+
+.wrapper {
+	max-width: 1920px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Inter', 'Open Sans', sans-serif;
+}

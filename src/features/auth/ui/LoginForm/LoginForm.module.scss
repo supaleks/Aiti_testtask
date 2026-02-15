@@ -1,0 +1,65 @@
+.wrapper {
+	width: 527px;
+	padding: 6px; /* толщина внешнего бордера */
+	background: #ffffff;
+	border-radius: 32px;
+}
+
+.form_block {
+	padding: 57px;
+	border-radius: 28px;
+
+	border: 1px solid transparent;
+
+	background:
+		linear-gradient(180deg, rgba(35, 35, 35, 0.03) 0%, rgba(35, 35, 35, 0) 50%)
+			padding-box,
+		linear-gradient(#ffffff, #ffffff) padding-box,
+		linear-gradient(
+				180deg,
+				rgba(237, 237, 237, 1) 20%,
+				rgba(237, 237, 237, 0) 100%
+			)
+			border-box;
+}
+
+.title {
+	text-align: center;
+}
+
+.subtitle {
+	display: block;
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+.input {
+	padding: 14px 16px;
+	font-weight: 500;
+	color: #000;
+	border-radius: 15px;
+}
+
+.input::placeholder {
+	color: #000;
+}
+
+.remember {
+	color: #9c9c9c;
+}
+
+.button {
+	font-size: 18px;
+	font-weight: 600;
+	box-sizing: content-box;
+	padding: 10px 8px;
+}
+
+.register {
+	margin-top: 32px;
+	text-align: center;
+}
+
+.link {
+	margin-left: 5px;
+}
